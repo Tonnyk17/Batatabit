@@ -246,3 +246,108 @@ main{
     color: var(--warm-black);
     font-weight: 300;
 }
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 32rem;
+    height: auto;
+    padding: 2rem 1rem;
+    background-color: var(--warm-black)
+}
+.product-detail--batata-logo{
+    position: absolute;
+    width: 4rem;
+    height: 2.5rem;
+    background-image: url("https://i.postimg.cc/rscgbVHm/batata.png");
+    top: -1rem;
+    left: calc(50% - 20px);
+}
+.product-detail--title{
+    
+    width: 90%;
+    min-width: 28.8rem;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: center;
+    
+}
+.product-detail--title h2{
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--white);
+}
+.product-detail--title p{
+    margin-bottom: 2rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.product-detail--card{
+    width: 90%;
+    padding: 1.5rem;
+    min-width: 28.8rem;
+    max-width: 40rem;
+    height: 15rem;
+    margin: 1.5rem auto;
+    background-color: var(--black)
+    border-radius: 0.5rem;
+    box-shadow: 0 0.4rem 0.8rem rgba(0,0,0,0.16);
+
+}
+.product-detail--card .clock, .eye, .money, .check{
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.product--card-title{
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--white);
+}
+.product--card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: #808080;
+}
+.clock{
+    background-image: url("https://i.postimg.cc/KzPF9F7w/clock.png");
+}
+.eye{
+    background-image: url("https://i.postimg.cc/gjGpQ5NJ/eye.png")
+}
+.money{
+    background-image: url("https://i.postimg.cc/SKzmMcny/dollar-sign.png");
+}
+.check{
+    background-image: url("https://i.postimg.cc/vZTYGJMx/check-circle.png");
+}
+.bitcoin-img-container{
+    width: 100%;
+    min-width: 32rem;
+    background-image: url("https://i.postimg.cc/CKpKvmC7/bitcoinbaby-1.jpg");
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.bitcoin-img-container h2{
+    color: var(--white);
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold; 
+    line-height: 2.6rem;
+    padding-top: 6rem;
+}
+
